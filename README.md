@@ -3,19 +3,16 @@
 Nome: Arthur Henrique Alves Saturno
 
 Química:
-
-1-Sócrates
-2-Aristóteles
-3-Platão
+<br>1-Sócrates
+<br>2-Aristóteles
+<br>3-Platão
 
 Física:
-
-1-Aristóteles	
-2-Platão
-3-Sócrates
+<br>1-Aristóteles	
+<br>2-Platão
+<br>3-Sócrates
 
 Matemática:
-
-1-Platão	
-2-Sócrates
-3-Aristóteles	
+<br>1-Platão	
+<br>2-Sócrates
+<br>3-Aristóteles	
