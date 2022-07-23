@@ -1,2 +1,2 @@
 # Curso_Softex
-RL
+Exercicios
