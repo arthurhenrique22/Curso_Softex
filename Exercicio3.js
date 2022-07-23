@@ -1,4 +1,4 @@
-//**OBS: Linguagem baseada em JavaScript**
+//**OBS: Linguagem baseada em JavaScript, lembrando os tipos de dados das variáveis não precisam ser declarados exemplo "string, float.."(tipagem dinâmica)**
 //Primeiro passo declarar as váriaveis que serão usadas para armazenar os dados.
 
 //váriavel que vai armazenar o nome.
