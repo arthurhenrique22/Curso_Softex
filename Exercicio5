@@ -1,0 +1,106 @@
+programa {
+	funcao inicio() {
+	   //fase 1 terreste//
+	   inteiro terreste, pessoa, capacete, passageiro
+	   //fase 2 terreste//
+	   inteiro pesado, pedal, trilho, pista
+	   //fase 3 terreste//
+	   inteiro alto, leve
+	   //fase 4 terreste//
+	   inteiro carroceria, cobrador
+	    
+	    escreva("Qual transporte você está pensando.. é terreste? Escolha 1)Sim 2)Não ")
+	    leia(terreste)
+	        
+	        se(terreste == 1){
+	            escreva("Cabe apenas uma pessoa? 1)Sim 2)Não ")
+	                leia(pessoa)
+	               se (pessoa == 1 ){
+	                        escreva("É pesado? 1)Sim 2)Não  ")
+	                            leia(pesado)
+	                           
+	                            se (pesado == 1)
+	                                escreva("Hum.. Então, o transporte escolhido foi um trator.")
+	                                
+    	                            se (pesado == 2){
+    	                                escreva("Tem pedal? 1)Sim 2)Não  ")	                            
+    	                                    leia(pedal)
+    	                                    
+    	                                se (pedal == 1){
+    	                                escreva("Hum.. Então, o transporte escolhido foi a bicicleta.")
+    	                               }
+    	                               senao{
+    	                                   escreva("Resposta invalida")
+    	                               }
+	                            }
+         
+	    }
+	                
+	        se (pessoa ==2){
+	            escreva("Usa Capacete? 1)Sim 2)Não  ")
+	                leia(capacete)
+	               se(capacete == 1){
+	                   escreva("Hum.. Então, o transporte escolhido foi uma moto.")
+	               }
+	        
+	        se (capacete == 2)
+    	            escreva("Tem passageiro? 1)Sim 2)Não   ")
+                        leia(passageiro) 
+                    se(passageiro == 1){
+                        escreva("Usa trilho? 1)Sim 2)Não  ")
+                        leia(trilho)
+                        se(trilho == 1){
+                            escreva("Hum.. Então, o transporte escolhido foi um trem.")
+                        }
+                        se(trilho == 2){
+                                escreva("Anda na pista? 1)Sim 2)Não  ")
+                                    leia(pista)
+                                    se(pista == 1){
+                                        escreva("É alto? 1)Sim 2)Não  ")
+                                            leia(alto)
+                                    se (alto == 1){
+                                        escreva("Usa carroceria 1)Sim 2)Não ")
+                                            leia(carroceria)
+                                            
+                                            se(carroceria == 1){
+                                                  escreva("Hum.. Então, o transporte escolhido foi um caminhão.") 
+                                            }
+                                            se (carroceria == 2){
+                                                escreva("Pode ter um cobrador? 1)Sim 2)Não ")
+                                                    leia(cobrador)
+                                                    
+                                                    se(cobrador == 1){
+                                                        escreva("Hum.. Então, o transporte escolhido foi um ônibus.")
+                                                    }
+                                                    se (cobrador == 2){
+                                                        escreva("Resposta invalida")
+                                                    }
+                                            }
+                                    }
+                                    se(alto == 2){
+                                        escreva("É veículo leve? 1)Sim 2)Não  ")
+                                            leia(leve)
+                                    se(leve == 1){
+                                            escreva("Hum.. Então, o transporte escolhido foi um carro.")
+                                        }
+                                    se (leve == 2){
+                                        escreva("Resposta invalida")
+                                    }   
+                                        
+                       
+                                    }
+                                    
+                                    
+                                        
+                                }
+                        }
+                                
+                } 
+                    
+                    
+    	   }        
+               
+	        }
+		
+	}
+}
