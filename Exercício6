@@ -1,0 +1,65 @@
+programa { //programa feito em portugol https://portugol-webstudio.cubos.io/ide
+	funcao inicio() {
+		
+		cadeia nome, turma
+		cadeia turmaA ="A"
+		cadeia turmaB = "B"
+		cadeia turmaC = "C"
+		cadeia turmaD = "D"
+		inteiro nota
+		inteiro aluno = 0
+		inteiro passou = 0
+		inteiro aprovados = 1
+        inteiro nota2 = 7
+		inteiro maiornota =8
+		
+		enquanto( aprovados <= 4){
+
+		escreva("Seu nome: ")
+		leia(nome)
+		escreva("Sua nota: ")
+		leia(nota)
+		escreva("Sua turma: ")
+		leia(turma)
+		        aprovados++
+   
+        se (nota >= nota2){
+            passou++
+            se (turma == turmaA){
+		    limpa()
+		    escreva(nome, ", passou na turma ", turmaA)
+		        se(maiornota > nota2){
+		            escreva("\n", nome, ", Obteve a maior nota da turma A ")
+		        }
+            }
+		    se(turma == turmaB){
+		        limpa()
+		        escreva(nome, ", passou na turma " ,turmaB, "\n")
+		        se(maiornota > nota2){
+		            escreva(nome, ", Obteve a maior nota da turma B")
+		        }
+		    }
+		    se(turma == turmaC){
+		        limpa()
+		        escreva(nome, "  passou na turma " ,turmaC, "\n")
+		        se(maiornota >= nota2){
+		            escreva(nome, ", Obteve a maior nota da turma C")
+		        }
+		    }
+		    se(turma == turmaD){
+		        limpa()
+		        escreva( nome,"  passou na turma " ,turmaD, "\n")
+		        se(maiornota > nota2){
+		            escreva(nome, ", Obteve a maior nota da turma D")
+		        }
+		    }
+		    
+		    se(maiornota > nota2){
+		        escreva("\n",nome," Obteve a maior nota de todos\n")   
+		    }
+		}
+        }
+            	escreva("\nO total de alunos que passaram foi " ,passou)
+		}
+			
+}
