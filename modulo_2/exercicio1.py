@@ -5,7 +5,7 @@ nota3 = float(input('Escreva sua terceira nota: '))
 falta = int(input('Quantas vezes você faltou? '))
 
 media: float = (nota1 + nota2 + nota3) / 3
-a
+
 print('Media: ', media)
 
 if media < 7.0:
