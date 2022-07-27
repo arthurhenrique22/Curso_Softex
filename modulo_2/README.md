@@ -1,2 +1,2 @@
 # Curso_Softex
-Exercicios modulo 2
+Exercicios modulo 2py
