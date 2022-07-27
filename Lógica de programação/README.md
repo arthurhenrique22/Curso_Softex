@@ -1,2 +1,0 @@
-# Curso_Softex
-Exercicios
