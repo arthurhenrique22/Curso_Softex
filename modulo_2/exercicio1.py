@@ -1,3 +1,5 @@
+#programa feito no pycharm com a linguagem python
+
 nome = str(input('Qual é o seu nome? '))
 nota1 = float(input('Escreva sua primeira nota: '))
 nota2 = float(input('Escreva sua segunda nota: '))
