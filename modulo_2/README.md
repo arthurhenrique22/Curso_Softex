@@ -1,2 +1,2 @@
 # Curso_Softex
-Exercicios
+Exercicios modulo 2
