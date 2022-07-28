@@ -25,24 +25,20 @@ programa {
     inteiro alto2, descoberto
     
 	    escreva("Qual transporte você está pensando.. é terreste? Escolha 1)Sim 2)Não ")
-	    leia(terreste)
-	        
+	    leia(terreste)    
 	        se(terreste == 1){
 	            escreva("Cabe apenas uma pessoa? 1)Sim 2)Não ")
-	                leia(pessoa)
-	                
+	                leia(pessoa)         
             se (pessoa == 1 ){
                 escreva("É pesado? 1)Sim 2)Não  ")
-                    leia(pesado)
-	                           
+                    leia(pesado)                   
                 se (pesado == 1){
                     limpa()
                     escreva("Hum.. Então, o transporte escolhido foi um trator.")
                 }             
                 se (pesado == 2){
                         escreva("Tem pedal? 1)Sim 2)Não  ")	                            
-                            leia(pedal)
-    	                                    
+                            leia(pedal)                     
                    se (pedal == 1){
                     escreva("Hum.. Então, o transporte escolhido foi a bicicleta.")
                    }
@@ -59,7 +55,6 @@ programa {
 	                   limpa()
 	                   escreva("Hum.. Então, o transporte escolhido foi uma moto.")
 	               }
-	        
 	        se (capacete == 2)
     	            escreva("Tem passageiro? 1)Sim 2)Não   ")
                         leia(passageiro) 
@@ -73,22 +68,19 @@ programa {
                         se(trilho == 2){
                                 escreva("Anda na pista? 1)Sim 2)Não  ")
                                     leia(pista)
-                                    
-                                    se(pista == 1){
-                                        escreva("É alto? 1)Sim 2)Não  ")
-                                            leia(alto)
+                                    	se(pista == 1){
+                                           escreva("É alto? 1)Sim 2)Não  ")
+                                            	leia(alto)
                                     se (alto == 1){
                                         escreva("Usa carroceria 1)Sim 2)Não ")
-                                            leia(carroceria)
-                                            
-                                            se(carroceria == 1){
+                                            leia(carroceria)  
+                                            	se(carroceria == 1){
                                                 limpa()
-                                                escreva("Hum.. Então, o transporte escolhido foi um caminhão.") 
+                                                	escreva("Hum.. Então, o transporte escolhido foi um caminhão.") 
                                             }
                                             se (carroceria == 2){
                                                 escreva("Pode ter um cobrador? 1)Sim 2)Não ")
-                                                    leia(cobrador)
-                                                    
+                                                    leia(cobrador) 
                                                     se(cobrador == 1){
                                                         limpa()
                                                         escreva("Hum.. Então, o transporte escolhido foi um ônibus.")
@@ -127,11 +119,9 @@ programa {
     	                    se (pular == 2){
     	                        escreva("Viaja dentro? 1)Sim 2)Não ")
     	                            leia(dentro)
-    	                            
     	                            se(dentro == 1){
     	                                escreva("É devagar?  1)Sim 2)Não ")
     	                                    leia(devagar)
-    	                                    
     	                                    se(devagar == 1){
     	                                        limpa()
     	                                        escreva("Hum.. Então, o transporte escolhido foi um balão.")
@@ -139,11 +129,9 @@ programa {
     	                                    se(devagar == 2){
     	                                        escreva("Tem piloto?  1)Sim 2)Não  ")
     	                                            leia(piloto)
-    	                                        
                 	                               se(piloto == 1){
                 	                                    escreva("Possui asas fixas?   1)Sim 2)Não ")
                 	                                        leia(asas)
-            	                                            
             	                                            se(asas == 1){
             	                                                limpa()
             	                                                escreva("Hum.. Então, o transporte escolhido foi um avião.")
@@ -160,7 +148,6 @@ programa {
             	                                                    escreva("Você me pegou rsrs!!")
             	                                                }
             	                                            }
-   
             	                                   }
             	                                   se (piloto == 2){
             	                                       limpa()
@@ -184,8 +171,7 @@ programa {
     	                    se (coberto == 1){
     	                    limpa()
     	                    escreva("Hum.. Então, o transporte escolhido foi um submarino.")
-    	                    }
-    	                    
+    	                    }   
 	                se(coberto == 2){
 	                    escreva("Navega na agua? 1)Sim 2)Não ")
 	                    leia(agua)
