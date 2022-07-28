@@ -15,4 +15,4 @@ if media < 7.0:
 elif media < 11:
     print('Parabéns,', nome, 'você foi aprovado com sucesso !!!')
 elif falta > 3:
-    print('Mas você foi reprovado por falta, pois faltou', falta, 'vezes')
+    print('Você foi reprovado por falta, pois faltou', falta, 'vezes')
