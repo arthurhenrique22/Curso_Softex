@@ -5,11 +5,11 @@
 rodas = 4
 #peso bruto do seu veiculo
 pesobruto = 6001
-#quantidade de pessoas que cabe
+#quantidade de pessoas que cabe no veiculo
 pessoas = 4
 
 if 1 < rodas <= 3:
-    print('Veículos com duas ou três rodas, tem a habilitação categoria ')
+    print('Veículos com duas ou três rodas, tem a habilitação categoria A')
 
 elif rodas == 4 and pesobruto <= 3500 and pessoas <= 8:
     print('Veículos com quatro rodas, que acomodam até oito pessoas e seu peso é de até 3500 kg,tem a habilitação categoria B')
@@ -22,6 +22,6 @@ elif rodas >= 4 and pessoas > 8:
 
 elif rodas >= 4 and pesobruto > 6000:
     print('Veículos com quatro rodas ou mais e com mais de 6000 kg, tem a habilitação categoria E')
-
+    
 categoria = input(str('Qual foi a categoria informada? '))
     print('Essa é a categoria mais adadequada para o você', categoria, 'dirija com cuidado !')
