@@ -1,10 +1,11 @@
 # Para executar o programa, atribuia valor as variaveis
 
 #Indique as caracteristicas do seu veiculo a baixo.
+#quantidade de rodas que seu veiculo possui
 rodas = 4
-
+#peso bruto do seu veiculo
 pesobruto = 6001
-
+#quantidade de pessoas que cabe
 pessoas = 4
 
 if 1 < rodas <= 3:
