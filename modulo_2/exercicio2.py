@@ -24,4 +24,4 @@ elif rodas >= 4 and pesobruto > 6000:
     print('Veículos com quatro rodas ou mais e com mais de 6000 kg, tem a habilitação categoria E')
     
 categoria = input(str('Qual foi a categoria informada? '))
-    print('Essa é a categoria mais adadequada para o você', categoria, 'dirija com cuidado !')
+    print('Essa é a categoria mais adadequada para você', categoria, 'dirija com cuidado !')
