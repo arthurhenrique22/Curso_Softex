@@ -1,13 +1,14 @@
 #programa feito no pycharm com a linguagem python
 
 nome = str(input('Qual é o seu nome? '))
+
 nota1 = float(input('Escreva sua primeira nota: '))
 nota2 = float(input('Escreva sua segunda nota: '))
 nota3 = float(input('Escreva sua terceira nota: '))
+
 falta = int(input('Quantas vezes você faltou? '))
 
 media: float = (nota1 + nota2 + nota3) / 3
-
 print('Media: ', media)
 
 if media < 7.0:
