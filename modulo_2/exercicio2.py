@@ -1,5 +1,6 @@
 # Para executar o programa, atribuia valor as variaveis
 
+#Indique as caracteristicas do seu veiculo a baixo.
 rodas = 4
 
 pesobruto = 6001
