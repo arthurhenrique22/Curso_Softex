@@ -7,13 +7,13 @@ def s():
 def sub():
     num1 = float(input('1) Digite o número: '))
     num2 = float(input('2) Digite o número: '))
-    print('Resultado da subtraçao: ', num1 - num2)
+    print('Resultado da subtração: ', num1 - num2)
 
 
 def m():
     num1 = float(input('1) Digite o número: '))
     num2 = float(input('2) Digite o número: '))
-    print('Resultado da multiplicacao: ', num1 * num2)
+    print('Resultado da multiplicação: ', num1 * num2)
 
 
 def d():
