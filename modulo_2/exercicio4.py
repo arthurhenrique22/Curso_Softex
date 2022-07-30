@@ -25,10 +25,7 @@ def d():
 op = 1
 
 while op:
-    print('1: Somar')
-    print('2: Subtrair')
-    print('3: Multiplicação')
-    print('4: Divisão')
+    print('1 = Somar'), print('2 = Subtrair'), print('3 = Multiplicação'), print('4 = Divisão')
 
     op = int(input('Escolha uma opção: '))
 
