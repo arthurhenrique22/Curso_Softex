@@ -19,7 +19,7 @@ def m():
 def d():
     num1 = float(input('1) Digite um número: '))
     num2 = float(input('2) Digite um número: '))
-    print("Divisao: ", num1 / num2)
+    print('Divisao: ', num1 / num2)
 
 
 op = 1
