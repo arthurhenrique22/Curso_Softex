@@ -6,8 +6,7 @@ boletim = {'aluno': ['aluno_1', 'aluno_2', 'aluno_3','aluno_4'],
     'faltas': [2, 5, 6, 3]
 }
 df = pd.DataFrame(boletim)
-df['média'] = df['nota_1'] + df['nota_2']
-df['média'] = df['média'] / 2
+df['média'] = (df['nota_1'] + df['nota_2']) / 2
 df['situação'] = 0
 
 df.loc[df['média'] >= 7, 'situação'] = 'Aprovado'
