@@ -1,8 +1,8 @@
 def insertionSort(lista):
 
-    for step in range(1, len(lista)):
-        chave = lista[step]
-        i = step - 1
+    for passn in range(1, len(lista)):
+        chave = lista[passn]
+        i = passn - 1
 
         while i >= 0 and chave < lista[i]:
             lista[i + 1] = lista[i]
