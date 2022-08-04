@@ -6,6 +6,6 @@ def bubbleSort(alista):
                 alista[i] = alista[i+1]
                 alista[i+1] = tempo
 
-alista = [10, 9, 8, 7, 6, 5, 4, 2, 3, 1]
+alista = [2, 5, 8, 12, 6, 4, 3, 20, 17, 19 ]
 bubbleSort(alista)
 print(alista)
