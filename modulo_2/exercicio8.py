@@ -21,3 +21,5 @@ print(df)
 print('A média geral dos alunos: '+str(media))
 print('O maior número de faltas: '+str(faltas))
 print('A maior média: '+str(maiorMedia))
+
+df.to_csv('alunos_situação.csv')
