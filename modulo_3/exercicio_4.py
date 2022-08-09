@@ -1,4 +1,4 @@
-num1 = 5 + 5
+num1 = 5 + 5j
 num2 = complex(5, 5)
 num3 = complex(5, 5)
 
