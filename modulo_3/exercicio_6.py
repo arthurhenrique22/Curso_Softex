@@ -72,8 +72,8 @@ if __name__ == '__main__':
     raiz.direita.direita.direita = Node(3)
     print('Antes: ')
     ordem(raiz)
-    key = 20
-    root = remover(raiz, key)
+    chave = 20
+    chave= remover(raiz, chave)
     print()
     print('Depois: ')
     ordem(raiz)
