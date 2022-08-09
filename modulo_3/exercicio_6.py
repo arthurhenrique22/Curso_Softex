@@ -60,7 +60,7 @@ def remover(raiz, chave):
         removerR(raiz, temp)
         chave_no.dados = x
     return raiz
-
+a
 
 if __name__ == '__main__':
     raiz = Node(20)
