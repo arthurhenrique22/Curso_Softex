@@ -7,10 +7,10 @@ caminho mais rápido para chegar do vértice 1 ao 5, por exemplo, são os aplica
 Exemplo de ligação simplex:
 
 Dados apenas para uma direção,
-  x --> y
+  A->B
 
 Exemplo de ligação full duplex:
 
 É o modo de transmissão em sentido duplo ou bidirecional simultâneo.
-  x --> y
-  x <-- y
+  A->B
+  A<-B
