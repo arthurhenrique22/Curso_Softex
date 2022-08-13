@@ -1,0 +1,6 @@
+Padrões estruturais..
+
+Os padrões estruturais se concentram em como combinar as classes e objetos para formar estruturas maiores.
+As classes usam herença para compor interfaces ou implementações, classes de objetos em vez de compor interfaces
+ou implementações descrevem a maneira de compor objetos para obter novas funcionalidades. A flexibilidade obtida
+pela composição em tempo de execução.
