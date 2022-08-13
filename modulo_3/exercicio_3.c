@@ -1,27 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-  float *vetor; 
-  int i, num;
-  
-  printf("Informe o numero de componentes do vetor\n");
-  scanf("%d", &num);
+int main() {
+  int *p, i;
 
-  vetor = (float *)malloc(num * sizeof(float));
+  p = malloc(10*sizeof(int));
+  if (p == NULL) {
+    printf("Espaço insuficiente");
+    exit(1);
+  } else {
 
-  for (i = 0; i < num; i++) {
-    printf("\nDigite o valor para a posicao %d do vetor: ", i + 1);
-    scanf("%f", &vetor[i]);
+    printf("Primeiros 10 números.\n");
+    for (i = 0; i < 10; i++) {
+      p[i] = i + 10;
+      printf("%d-%d\n", i, p[i]);
+    }
+
+    p = realloc(p,12*sizeof(int));
+
+    printf("Realocando para mais 11 números");
+
+    for (i = 10; i < 11; i++) {
+      p[i] = i + 12;
+      printf("%d-%d\n", i, p[i]);
+    }
+    printf("Todos os 22 números alocados.\n");
+    for (i = 0; i < 11; i++) {
+      printf("%d-%d\n", i, p[i]);
+    }
+    free(p);
   }
-
-  printf("\nValores do vetor dinamico\n\n");
-
-  for (i = 0; i < num; i++) {
-    printf("%.2f\n", vetor[i]);
-  }
-
-  free(vetor);
-
-  return 0;
+  system("pause");
+  return (0);
 }
