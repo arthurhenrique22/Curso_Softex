@@ -1,0 +1,9 @@
+Primeiro site: https://www.google.com.br/
+
+Ao apertar no botão de pesquisar por aúdio, vai puxar uma função especifica do js para gravar o que você fala e pesquisar.
+Ao abrir a ferramentas de inserção do texto, irá abrir uma "span class" e logo após irá aparecer uma img, para poder digitar no teclado virtual do google.
+
+Segundo site: https://www.youtube.com/
+
+No youtube, o js é ulitizado como forma de animação ao passar o mouse em cima do video.
+Ao abrir a ferramentas de inserção do texto, irá abrir uma "span class" e logo após irá aparecer uma img, para poder digitar no teclado virtual do youtube.
