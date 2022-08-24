@@ -1,3 +1,4 @@
+#1-Criando tabela..
 import pandas as pd
 
 boletim = {'aluno': ['aluno_1', 'aluno_2', 'aluno_3','aluno_4'],
@@ -6,6 +7,29 @@ boletim = {'aluno': ['aluno_1', 'aluno_2', 'aluno_3','aluno_4'],
     'faltas': [2, 5, 6, 3]
 }
 df = pd.DataFrame(boletim)
+df['média'] = (df['nota_1'] + df['nota_2']) / 2
+df['situação'] = 0
+
+df.loc[df['média'] >= 7, 'situação'] = 'Aprovado'
+df.loc[df['média'] < 7, 'situação'] = 'Reprovado'
+df.loc[df['faltas'] > 5, 'situação'] = 'Reprovado'
+
+media = df['média'].median()
+faltas = df['faltas'].max()
+maiorMedia = df['média'].max()
+
+print(df)
+print('A média geral dos alunos: '+str(media))
+print('O maior número de faltas: '+str(faltas))
+print('A maior média: '+str(maiorMedia))
+
+df.to_csv('alunos_situação.csv')
+
+#2-Lendo Tabela
+import pandas as pd
+
+
+df = pd.read_csv('alunos_situação.csv')
 df['média'] = (df['nota_1'] + df['nota_2']) / 2
 df['situação'] = 0
 
