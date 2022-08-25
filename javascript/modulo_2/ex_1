@@ -9,4 +9,4 @@ Ele lembra um pouco o Singleton, mas não precisa ter uma só instância, pode t
 
 refs:
 https://www.geeksforgeeks.org/flyweight-method-python-design-patterns/#:~:text=%20Disadvantages%20%201%20Breaking%20Encapsulation%3A%20Whenever%20we,code%20to%20understand%20for%20the%20new...%20More%20
-https://pt.stackoverflow.com/questions/164960/o-que-%C3%A9-flyweight-pattern#:~:text=O%20Singleton%20tem%20um%20objeto%20de%20um%20determinado,tamb%C3%A9m%20para%20manter%20uma%20forma%20can%C3%B4nica%20do%20objeto.
+https://pt.stackoverflow.com/questions/164960/o-que-%C3%A9-flyweight-pattern#:~:text=O%20Singleton%20tem%20um%20objeto%20de%20um%20determinado,tamb%C3%A9m%20para%20manter%20uma%20forma%20can%C3%B4nica%20do%20objeto
