@@ -10,7 +10,6 @@ var saldoatual = function(valor) {
     console.log("Saldo atual: " + cliente.saldo)
 }
 
-
 var deposito = function(valor) {
     cliente.saldo = cliente.saldo + valor
 }
